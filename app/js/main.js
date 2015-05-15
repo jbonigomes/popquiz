@@ -51,7 +51,7 @@ $('document').ready(function() {
     {
       question: 'c) During the project you develop new unique code for Teledyne. Describe three ways in which such Intellectual Property is protected and identify which is most appropriate in this case.',
       answer: 'I don\'t know yet'
-    },
+    }]
   },
   {
     question: 'Data Protection',
@@ -63,7 +63,7 @@ $('document').ready(function() {
     {
       question: 'b) Alice wants to know if there are other regulations that apply to her new online business, particularly around contracting. What is your advice?',
       answer: 'I don\'t know yet'
-    },
+    }]
   },
   {
     question: 'Software Engineering Profession',
@@ -288,7 +288,7 @@ $('document').ready(function() {
       question: 'c) Which UK agency is responsible for data protection?',
       answer: 'I don\'t know yet'
     }]
-  }
+  },
   {
     question: 'Intellectual Property in IT',
     color: 'orange',
