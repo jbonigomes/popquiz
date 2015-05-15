@@ -23,12 +23,13 @@ module.exports = function (grunt) {
     watch: {
       compass: {
         files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
-        tasks: ['compass:server', 'autoprefixer:dist']
+        // tasks: ['compass:server', 'autoprefixer:dist']
+        tasks: ['compass:server']
       },
-      autoprefixer: {
-        files: ['<%= yeoman.app %>/css/**/*.css'],
-        tasks: ['copy:stageCss', 'autoprefixer:dist']
-      },
+      // autoprefixer: {
+      //   files: ['<%= yeoman.app %>/css/**/*.css'],
+      //   tasks: ['copy:stageCss', 'autoprefixer:dist']
+      // },
       jekyll: {
         files: [
           '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
@@ -132,17 +133,17 @@ module.exports = function (grunt) {
         }
       }
     },
-    autoprefixer: {
-      options: {
-        browsers: ['last 2 versions']
-      },
-      dist: {
-        expand: true,
-        cwd: '.tmp',
-        src: '**/{css,concat}/*.css',
-        dest: '.tmp'
-      }
-    },
+    // autoprefixer: {
+    //   options: {
+    //     browsers: ['last 2 versions']
+    //   },
+    //   dist: {
+    //     expand: true,
+    //     cwd: '.tmp',
+    //     src: '**/{css,concat}/*.css',
+    //     dest: '.tmp'
+    //   }
+    // },
     jekyll: {
       options: {
         config: '_config.yml,_config.build.yml',
@@ -252,15 +253,15 @@ module.exports = function (grunt) {
         }]
       },
       // Copy CSS into .tmp directory for Autoprefixer processing
-      stageCss: {
-        files: [{
-          expand: true,
-          dot: true,
-          cwd: '<%= yeoman.app %>/css',
-          src: '**/*.css',
-          dest: '.tmp/css'
-        }]
-      }
+      // stageCss: {
+      //   files: [{
+      //     expand: true,
+      //     dot: true,
+      //     cwd: '<%= yeoman.app %>/css',
+      //     src: '**/*.css',
+      //     dest: '.tmp/css'
+      //   }]
+      // }
     },
     filerev: {
       options: {
@@ -318,7 +319,7 @@ module.exports = function (grunt) {
     concurrent: {
       server: [
         'compass:server',
-        'copy:stageCss',
+        // 'copy:stageCss',
         'jekyll:server'
       ],
       dist: [
@@ -337,7 +338,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'concurrent:server',
-      'autoprefixer:dist',
+      // 'autoprefixer:dist',
       'browserSync:server',
       'watch'
     ]);
@@ -359,7 +360,7 @@ module.exports = function (grunt) {
     'clean:server',
     'jekyll:check',
     'compass:server',
-    'jshint:all',
+    // 'jshint:all',
     'csslint:check'
     // 'scsslint'
   ]);
@@ -372,10 +373,10 @@ module.exports = function (grunt) {
     'useminPrepare',
     'concat',
     'cssmin',
-    'autoprefixer:dist',
+    // 'autoprefixer:dist',
     'uglify',
-    'imagemin',
-    'svgmin',
+    // 'imagemin',
+    // 'svgmin',
     'filerev',
     'usemin',
     'htmlmin'

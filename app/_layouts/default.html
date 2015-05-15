@@ -1,45 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-        <!-- build:css({app,.tmp}) /css/main.css -->
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-        <!-- endbuild -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    </head>
-    <body>
+    <!-- build:css({app,.tmp}) /css/main.css -->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+    <div id="question">
+      <div class="refresh">
+        <i class="fa fa-refresh"></i>
+      </div>
+      <div class="container">
+        <h1></h1>
+      </div>
+    </div>
 
-          {{ content }}
+    <div id="answers">
+      <div class="container"></div>
+    </div>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                PopQuiz<br />
-                <a href="mailto:jbonigomes@yahoo.com.br">jbonigomes@yahoo.com.br</a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
     <!-- build:js(app) /js/scripts.js -->
     <script src="/js/main.js"></script>
     <!-- endbuild -->
-    </body>
+  </body>
 </html>

@@ -1,0 +1,186 @@
+// Pastel Green
+$green_sea: #16a085;
+$turquoise: #1abc9c;
+
+// Green - Contracts
+$nephritis: #27ae60;
+$emerald:   #2ecc71;
+
+// Blue - Freedom of Information
+$belize_hole: #2980b9;
+$peter_river: #3498db;
+
+// Dark Blue - Computer misuse
+$midnight_blue: #2c3e50;
+$wet_asphalt:   #34495e;
+
+// Orange - Intellectual Property
+$pumpkin: #d35400;
+$carrot:  #e67e22;
+
+// Yellow - Information systems importance
+$orange:    #f39c12;
+$sunflower: #f1c40f;
+
+// Red - Data Protection
+$pomegranade: #c0392b;
+$alizarin:    #e74c3c;
+
+// Purple - Software Engineering Profession
+$wisteria: #8e44ad;
+$amethyst: #9b59b6;
+
+// Gray - E-Commerce
+$asbestos: #7f8c8d;
+$silver:   #bdc3c7;
+
+// Fonts
+$clouds: #ecf0f1;
+
+// Background
+$concrete: #95a5a6;
+
+
+body {
+  margin: 0;
+  color: $clouds;
+  background: $concrete;
+  font-family: 'Open Sans', sans-serif;
+
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+  }
+
+  h1 {
+    padding: 30px 0;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    height: 0;
+    opacity: 0;
+    font-style: italic;
+    transition: all .5s ease-in-out;
+  }
+
+  h3.active {
+    opacity: 1;
+    height: auto;
+  }
+
+  #question {
+    .refresh {
+      top: 10px;
+      right: 10px;
+      font-size: 40px;
+      position: absolute;      
+
+      i {
+        width: 35px;
+        height: 40px;
+        display: block;
+        cursor: pointer;
+        color: rgba(255,255,255,.5);
+        transition: color .5s ease-in-out;
+      }
+
+      i:hover {
+        color: rgba(255,255,255,.8);
+      }
+    }
+  }
+
+  #answers {
+    .container {
+      div {
+        cursor: pointer;
+        padding: 30px 0;
+        position: relative;
+      }
+    }
+  }
+
+  #question.pastel {
+    background: $green_sea;
+  }
+
+  #question.green {
+    background: $nephritis;
+  }
+
+  #question.blue {
+    background: $belize_hole;
+  }
+
+  #question.dark {
+    background: $midnight_blue;
+  }
+
+  #question.orange {
+    background: $pumpkin;
+  }
+
+  #question.yellow {
+    background: $orange;
+  }
+
+  #question.red {
+    background: $pomegranade;
+  }
+
+  #question.purple {
+    background: $wisteria;
+  }
+
+  #question.gray {
+    background: $asbestos;
+  }
+}
+
+body.pastel {
+  background: $turquoise;
+}
+
+body.green {
+  background: $emerald;
+}
+
+body.blue {
+  background: $peter_river;
+}
+
+body.dark {
+  background: $wet_asphalt;
+}
+
+body.orange {
+  background: $carrot;
+}
+
+body.yellow {
+  background: $sunflower;
+}
+
+body.red {
+  background: $alizarin;
+}
+
+body.purple {
+  background: $amethyst;
+}
+
+body.gray {
+  background: $silver;
+}
