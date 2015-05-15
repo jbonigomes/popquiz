@@ -83,7 +83,7 @@ $('document').ready(function() {
   },
   {
     question: 'Data Protection',
-    color: '??',
+    color: 'red',
     subquestions: [{
       question: 'a) What is the purpose of data protection legislation? Describe four of the principles that underpin data protection legislation in the UK.',
       answer: 'I don\'t know yet'
@@ -99,7 +99,7 @@ $('document').ready(function() {
   },
   {
     question: 'Information Systems Importance',
-    color: '??',
+    color: 'yellow',
     subquestions: [{
       question: 'a) The National Programme for IT comprised a series of IS projects designed to provide modern IS for the NHS in the UK. The programme was terminated in 2011, and was widely regarded as an example of a failed IS programme. Write a short essay (2 pages) describing why this programme is of interest to IS professionals. You should refer to the importance of IS systems in society, reasons for failure and implications on IS professionalism.',
       answer: 'I don\'t know yet'
@@ -195,7 +195,7 @@ $('document').ready(function() {
   },
   {
     question: 'E-Commerce',
-    color: 'gray',
+    color: 'pastel',
     subquestions: [{
       question: 'a) What is e-commerce? Describe what is meant by ‘B2B’, B2C’ and ‘C2C’.',
       answer: 'I don\'t know yet'
@@ -337,6 +337,11 @@ $('document').ready(function() {
   $('#answers').on('click', '.container > div', function() {
     $('h3').removeClass();
     $(this).find('h3').addClass('active');
+  });
+
+  // The all page
+  questions.forEach(function(question, i) {
+    $('#allquestions .container').append('<h2>' + (i+1) + ') ' + question.question + '</h2>');
   });
 
 });

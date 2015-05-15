@@ -1,4 +1,4 @@
-// Pastel Green
+// Pastel Green - E-Commerce
 $green_sea: #16a085;
 $turquoise: #1abc9c;
 
@@ -30,7 +30,7 @@ $alizarin:    #e74c3c;
 $wisteria: #8e44ad;
 $amethyst: #9b59b6;
 
-// Gray - E-Commerce
+// Gray
 $asbestos: #7f8c8d;
 $silver:   #bdc3c7;
 
@@ -78,6 +78,10 @@ body {
   h3.active {
     opacity: 1;
     height: auto;
+  }
+
+  #allquestions {
+    background: $silver;
   }
 
   #question {
@@ -144,7 +148,7 @@ body {
     background: $wisteria;
   }
 
-  #question.gray {
+  #allquestionstitle.gray {
     background: $asbestos;
   }
 }
