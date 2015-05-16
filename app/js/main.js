@@ -1,5 +1,7 @@
 $('document').ready(function() {
 
+  var letters = ['a', 'b', 'c', 'd', 'e'];
+
   // Our data
   var questions = [{
     question: 'Information Systems Importance',
@@ -342,6 +344,11 @@ $('document').ready(function() {
   // The all page
   questions.forEach(function(question, i) {
     $('#allquestions .container').append('<h2>' + (i+1) + ') ' + question.question + '</h2>');
+
+    question.subquestions.forEach(function(subquestion) {
+      $('#allquestions .container').append('<h3>' + subquestion.question + '</h3>');
+      $('#allquestions .container').append('<h4>' + subquestion.answer + '</h4>');
+    });
   });
 
 });

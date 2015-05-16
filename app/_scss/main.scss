@@ -80,8 +80,28 @@ body {
     height: auto;
   }
 
+  #allquestionstitle {
+    h1 {
+      margin-bottom: 0;
+    }
+  }
+
   #allquestions {
     background: $silver;
+
+    h1, h2, h3, h4 {
+      text-align: left;
+    }
+
+    h2 {
+      margin: 0;
+      padding: 20px 0;
+    }
+
+    h3 {
+      opacity: 1;
+      height: auto;
+    }
   }
 
   #question {
