@@ -310,7 +310,7 @@ $('document').ready(function() {
 
   // Let's make the page refreshes re-usable
   function pickRandomQuestion() {
-    var data = questions[Math.floor(Math.random() * (questions.length - 1)) + 1];
+    var data = questions[Math.floor(Math.random() * (questions.length - 1))];
 
     $('body').removeClass().addClass(data.color);
     $('#question').removeClass().addClass(data.color);
