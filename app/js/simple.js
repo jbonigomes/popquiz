@@ -153,4 +153,19 @@ var questions = [
       },
     ]
   },
+  // OTHER
+  {
+    "question": "Other",
+    "color": "dark",
+    "subquestions": [
+      {
+        "question": "a) What are the qualified exemptions for the Freedom of Information Act?",
+        "answer": "Subject to a public interest test. Class based exemptions: Information intended for future publication; Information that relates to communications with members of the Royal family; Information relating to conferring of honours. Harm Based Exemptions: likely to prejudice international relations; likely to prejudice the economic interests of the UK; likely to prejudice law enforcement"
+      },
+      {
+        "question": "b) Define Regulation of Investigatory Powers Act 2000 (RIPA) and what it is intended for",
+        "answer": "Protects against unreasonable intrusion  of electronic communication and provides for privacy of communication. Intended to ensure that the relevant investigatory powers are used in accordance with human rights. For each power, the Act covers: the purposes for which they may be used; which authorities can use the powers; who should authorise each use of the power; the use that can be made of the material gained; independent judicial oversight; a means of redress for the individual. The powers are: interception of communications; acquisition/disclosure of communications data; intrusive surveillance (on residential premises/in private vehicles); covert surveillance in the course of specific operations; use of covert human intelligence sources (agents, informants, undercover officers); access to encrypted data"
+      }
+    ]
+  }
 ];
