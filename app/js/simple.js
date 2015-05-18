@@ -24,19 +24,15 @@ var questions = [
     "color": "yellow",
     "subquestions": [
       {
-        "question": "a) Describe some of the causes of information systems failure.",
-        "answer": "Failure on information systems happen quite often, in fact, it is debatable that information systems projects fails more often then succeeds, two of the most important reasons for informations systems failure are poor communication and engaging in projects that are over ambitious. Two good examples of high profile IT project failures are the National Programme for Information Technology (NPfIT) held by the NHS and the Transfer and Automated Registration of Uncertificated Stock (TAURUS), held by the London Stock Exchange, costing billions and millions respectively to their stakeholders."
-      },
-      {
-        "question": "b) Why do you think information systems are poorly understood by the public?",
+        "question": "a) Why do you think information systems are poorly understood by the public?",
         "answer": "Information systems are the most complex artifacts yet built, they are a comparatively recent discipline and are mostly very abstract. For example a rail control system is mostly 'invisible'. Before PCs/Internet, most public use was limited (e.g. ATMs)"
       },
       {
-        "question": "c) List three reasons why information systems are important in modern society.",
+        "question": "b) List three reasons why information systems are important in modern society.",
         "answer": "Information systems are the most complex artifacts yet built and are essential to modern society in a number of ways, such as, Health and well-being; Security; Commerce; Entertainment; Transport; Productivity"
       },
       {
-        "question": "d) Describe the two most important causes of information systems failure in your opinion, and give two examples of high profile IT project failures, indicating what went wrong.",
+        "question": "c) Describe the two most important causes of information systems failure in your opinion, and give two examples of high profile IT project failures, indicating what went wrong.",
         "answer": "Failure on information systems happen quite often, in fact, it is debatable that information systems projects fails more often then succeeds, two of the most important reasons for informations systems failure are poor communication and engaging in projects that are over ambitious. Two good examples of high profile IT project failures are the National Programme for Information Technology (NPfIT) held by the NHS and the Transfer and Automated Registration of Uncertificated Stock (TAURUS), held by the London Stock Exchange, costing billions and millions respectively to their stakeholders."
       }
     ]
