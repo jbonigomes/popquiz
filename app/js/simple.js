@@ -85,6 +85,10 @@ var questions = [
         "question": "f) Provide some guidance to Doc Sportello about what response Doc can expect from the Gravity Rainbow project and under what circumstances Doc can complain if he is unhappy with the information provided.",
         "answer": "Based on Environmental Information Regulations, Doc can expect information about decisions, policies and activities that affect the environment including water, air, fauna, flora, soil, land, energy, noise, waste, emissions. Doc can complain if the Gravity Rainbow project does not: Respond in a timely manner to his Freedom of Information request; Give proper advice and help; Give information in the form requested; Explain properly reason for refusing request."
       },
+      {
+        "question": "a) What are the qualified exemptions for the Freedom of Information Act?",
+        "answer": "Subject to a public interest test. Class based exemptions: Information intended for future publication; Information that relates to communications with members of the Royal family; Information relating to conferring of honours. Harm Based Exemptions: likely to prejudice international relations; likely to prejudice the economic interests of the UK; likely to prejudice law enforcement"
+      }
     ]
   },
   // DATA PROTECTION
@@ -112,6 +116,10 @@ var questions = [
         "question": "e) What is Internet governance and what types of issues is it concerned with? Which bodies oversee Internet governance?",
         "answer": "Internet governance is the development and application by Governments, the private sector & civil society, in their respective roles, of shared principles, norms, rules, decision-making procedures, & programmes that shape the evolution & use of the Internet. It is concerned with: Infrastructure (Domain Name System, IP addresses); Security, safety and privacy (e.g. abuse, spam, cyber crime); Intellectual property and international trade (including copyrights); Development Issues (particularly developing countries). The bodies which oversee Internet governance are: Internet Governance Forum (IGF); United Nations Working Group on Internet Governance (WGIG); Internet Corporation for Assigned Names and Numbers (ICAAN); Internet Watch Foundation (IWF)"
       },
+      {
+        "question": "b) Define Regulation of Investigatory Powers Act 2000 (RIPA) and what it is intended for",
+        "answer": "Protects against unreasonable intrusion  of electronic communication and provides for privacy of communication. Intended to ensure that the relevant investigatory powers are used in accordance with human rights. For each power, the Act covers: the purposes for which they may be used; which authorities can use the powers; who should authorise each use of the power; the use that can be made of the material gained; independent judicial oversight; a means of redress for the individual. The powers are: interception of communications; acquisition/disclosure of communications data; intrusive surveillance (on residential premises/in private vehicles); covert surveillance in the course of specific operations; use of covert human intelligence sources (agents, informants, undercover officers); access to encrypted data"
+      }
     ]
   },
   // INTELLECTUAL PROPERTY
@@ -151,21 +159,6 @@ var questions = [
         "question": "h) Your friend has put together an album of family photos that she wants to put on Facebook. She’s used a U2 song as a background music track for the album slide show. What advice could you give her about this? What is YouTube’s position on copyright infringement?",
         "answer": "In 2010, YouTube won the case based on the Digital Millennium Copyright Act (DMCA), which essentially means that ISPs, aggregators and social networking services can't be held responsible for copyright infringement as long as they take reasonable steps to address the issue once it's flagged-up by the copyright holder. Strictly speaking, your friend does not hold the copyright to reproduce the U2 song, however, based on intellectual property fair usage regulations the usage could be possible providing it meets the following factors: purpose and character of the use, including whether such use is of a commercial nature or is for non-profit educational purposes; nature of the copyrighted work; amount and substantiality of the portion used in relation to the copyrighted work as a whole; effect of the use upon the potential market for or value of the copyrighted work."
       },
-    ]
-  },
-  // OTHER
-  {
-    "question": "Other",
-    "color": "dark",
-    "subquestions": [
-      {
-        "question": "a) What are the qualified exemptions for the Freedom of Information Act?",
-        "answer": "Subject to a public interest test. Class based exemptions: Information intended for future publication; Information that relates to communications with members of the Royal family; Information relating to conferring of honours. Harm Based Exemptions: likely to prejudice international relations; likely to prejudice the economic interests of the UK; likely to prejudice law enforcement"
-      },
-      {
-        "question": "b) Define Regulation of Investigatory Powers Act 2000 (RIPA) and what it is intended for",
-        "answer": "Protects against unreasonable intrusion  of electronic communication and provides for privacy of communication. Intended to ensure that the relevant investigatory powers are used in accordance with human rights. For each power, the Act covers: the purposes for which they may be used; which authorities can use the powers; who should authorise each use of the power; the use that can be made of the material gained; independent judicial oversight; a means of redress for the individual. The powers are: interception of communications; acquisition/disclosure of communications data; intrusive surveillance (on residential premises/in private vehicles); covert surveillance in the course of specific operations; use of covert human intelligence sources (agents, informants, undercover officers); access to encrypted data"
-      }
     ]
   }
 ];
