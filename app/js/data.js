@@ -15,7 +15,7 @@ var questions = [
 {
   "question": "Distinguish between lazy and eager evaluation in the implementation of applicative (functional) programming languages, illustrating your answer with suitable examples.",
   "color": "pastel",
-  "answer": "I don't know"
+  "answer": "something"
 },
 
 // Types
