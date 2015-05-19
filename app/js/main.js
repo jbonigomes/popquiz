@@ -1,28 +1,14 @@
 $('document').ready(function() {
 
-  var letters = ['a', 'b', 'c', 'd', 'e'];
-
   // Let's make the page refreshes re-usable
   function pickRandomQuestion() {
     var data = questions[Math.floor(Math.random() * (questions.length))];
 
-    console.log(Math.floor(Math.random() * (questions.length)));
-
     $('body').removeClass().addClass(data.color);
     $('#question').removeClass().addClass(data.color);
 
-    $('#answers .container').html('');
+    $('#answers .container h3').html(data.question);
     $('#question .container h1').html(data.question);
-
-    data.subquestions.forEach(function(subquestion) {
-      var html = '' +
-        '<div>' +
-          '<h2>' + subquestion.question + '</h2>' +
-          '<h3>' + subquestion.answer + '</h3>' +
-        '</div>';
-
-      $('#answers .container').append(html);
-    });
   }
 
   pickRandomQuestion();
