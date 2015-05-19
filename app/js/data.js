@@ -31,7 +31,7 @@ var questions = [{
   },
   {
     question: 'd) Doc Sportello is a private individual who wants to know more about the Gravity Rainbow project, a high value UK trade deal to sell rockets to the Ruritanians. This has been widely reported in the press, although the sale is still being debated in Parliament. Can the FoI Act help Doc?',
-    answer: 'Assuming the Gravity Rainbow project is a project held by the UK public authorities. The Environmental Information Regulations provide a statutory right of access to environmental information held by UK public authorities, including the Rainbow project. Under this legislation, Doc Sportello can ask a public body to provide information about decisions, policies and activities that affect the environment. Doc Sportello could use this to ask the Rainbow Project for information about the environmental impact of selling rockets to the Ruritanians.'
+    answer: 'Doc Sportello could apply for a Freedom of Information request but would probably be refused due to affecting public relations a harm based exemption as well as a absolute exemption for its disclosure may infringe parliamentary privilege and conduct of public affairs.'
   }]
 },
 {
@@ -47,7 +47,7 @@ var questions = [{
   },
   {
     question: 'c) During the project you develop new unique code for Teledyne. Describe three ways in which such Intellectual Property is protected and identify which is most appropriate in this case.',
-    answer: 'The three ways in which creative work can be protected by law are Patents which protect inventions, formulae, algorithms, and so on; Trademarks which protect manufacturers and suppliers - product names, logos and so on; and Copyright which covers the right to copy a piece of work. Since Teledyne is a robotics company, depending on jurisdiction, the software could be patented as part of a patentable physical product. Although patents are a powerful protective framework, they are expensive and take time to be processed, making it harder for smaller companies to achieve then for big companies. If the software does not represent a physical product, the software may not be patentable, in which case, smaller novel pieces of the software could be patented individually, such as formulae and algorithms. In the other hand, although less powerful then patents, the software will be automatically protected by copyright from the moment it came to existence. Patents last for 20 years in contrast with copyright which lasts 70.'
+    answer: 'The three ways in which creative work can be protected by law are Patents which protect inventions, formulae, algorithms, and so on; Trademarks which protect manufacturers and suppliers - product names, logos and so on; and Copyright which covers the right to copy a piece of work. Since Teledyne is a robotics company, depending on jurisdiction, the software could be patented as part of a patentable physical product. Although patents are a powerful protective framework, they are expensive and take time to be processed, making it harder for smaller companies to achieve then for big companies. If the software does not represent a physical product, the software may not be patentable, in which case, smaller novel pieces of the software could be patented individually, such as formulae and algorithms. In the other hand, although less powerful then patents, the software will be automatically protected by copyright from the moment it came to existence. Patents last for 20 years in contrast with copyright which lasts 70. In this case the most appropriate form of protection is copyright, which generally goes to the customer unless specified in the contract.'
   }]
 },
 {
@@ -75,7 +75,7 @@ var questions = [{
   },
   {
     question: 'c) In 2010, Google was sued by Viacom for infringement of copyright by its subsidiary YouTube. Describe the legal argument at the base of the litigation and the outcome.',
-    answer: 'YouTube won the case based on the Digital Millennium Copyright Act (DMCA), which essentially means that ISPs, aggregators and social networking services can`t be held responsible for copyright infringement as long as they take reasonable steps to address the issue once it\'s flagged-up by the copyright holder.'
+    answer: 'YouTube won the case based on the Digital Millennium Copyright Act (DMCA), which essentially means that ISPs, aggregators and social networking services can`t be held responsible for copyright infringement as long as they take reasonable steps to address the issue once it\'s flagged-up by the copyright holder. One of the reasons for choosing this is because they had implemented hashing technology to block videos that have already been removed. Youtube bought a licence to Finger printing technology that scans all videos before they are uploaded and this referenced against a library for participating copyright owners. They can monitor/ track uploaded videos and monetize the content by allowing advertising to run along side it'
   }]
 },
 {
@@ -139,7 +139,7 @@ var questions = [{
   },
   {
     question: 'b) Your friend has put together an album of family photos that she wants to put on Facebook. She’s used a U2 song as a background music track for the album slide show. What advice could you give her about this? What is YouTube’s position on copyright infringement?',
-    answer: 'In 2010, YouTube won the case based on the Digital Millennium Copyright Act (DMCA), which essentially means that ISPs, aggregators and social networking services can`t be held responsible for copyright infringement as long as they take reasonable steps to address the issue once it\'s flagged-up by the copyright holder. Strictly speaking, your friend does not hold the copyright to reproduce the U2 song, however, based on intellectual property fair usage regulations the usage could be possible providing it meets the following factors: purpose and character of the use, including whether such use is of a commercial nature or is for non-profit educational purposes; nature of the copyrighted work; amount and substantiality of the portion used in relation to the copyrighted work as a whole; effect of the use upon the potential market for or value of the copyrighted work.'
+    answer: 'YouTube won the case based on the Digital Millennium Copyright Act (DMCA), which essentially means that ISPs, aggregators and social networking services can`t be held responsible for copyright infringement as long as they take reasonable steps to address the issue once it\'s flagged-up by the copyright holder. One of the reasons for choosing this is because they had implemented hashing technology to block videos that have already been removed. Youtube bought a licence to Finger printing technology that scans all videos before they are uploaded and this referenced against a library for participating copyright owners. They can monitor/ track uploaded videos and monetize the content by allowing advertising to run along side it'
   }]
 },
 {
@@ -219,7 +219,7 @@ var questions = [{
   },
   {
     question: 'c) In 2010, Google was sued by Viacom for infringement of copyright by its subsidiary YouTube. Discuss the pros and cons of this case, indicating whether - in your opinion - the judgement was fair.',
-    answer: 'YouTube won the case based on the Digital Millennium Copyright Act (DMCA), which essentially means that ISPs, aggregators and social networking services can`t be held responsible for copyright infringement as long as they take reasonable steps to address the issue once it\'s flagged-up by the copyright holder.'
+    answer: 'YouTube won the case based on the Digital Millennium Copyright Act (DMCA), which essentially means that ISPs, aggregators and social networking services can`t be held responsible for copyright infringement as long as they take reasonable steps to address the issue once it\'s flagged-up by the copyright holder. One of the reasons for choosing this is because they had implemented hashing technology to block videos that have already been removed. Youtube bought a licence to Finger printing technology that scans all videos before they are uploaded and this referenced against a library for participating copyright owners. They can monitor/ track uploaded videos and monetize the content by allowing advertising to run along side it'
   }]
 },
 {

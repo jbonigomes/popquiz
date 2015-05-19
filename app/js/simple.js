@@ -79,7 +79,7 @@ var questions = [
       },
       {
         "question": "e) Doc Sportello is a private individual who wants to know more about the Gravity Rainbow project, a high value UK trade deal to sell rockets to the Ruritanians. This has been widely reported in the press, although the sale is still being debated in Parliament. Can the FoI Act help Doc?",
-        "answer": "Assuming the Gravity Rainbow project is a project held by the UK public authorities. The Environmental Information Regulations provide a statutory right of access to environmental information held by UK public authorities, including the Rainbow project. Under this legislation, Doc Sportello can ask a public body to provide information about decisions, policies and activities that affect the environment. Doc Sportello could use this to ask the Rainbow Project for information about the environmental impact of selling rockets to the Ruritanians."
+        "answer": "Doc Sportello could apply for a Freedom of Information request but would probably be refused due to affecting public relations a harm based exemption as well as a absolute exemption for its disclosure may infringe parliamentary privilege and conduct of public affairs."
       },
       {
         "question": "f) Provide some guidance to Doc Sportello about what response Doc can expect from the Gravity Rainbow project and under what circumstances Doc can complain if he is unhappy with the information provided.",
@@ -153,7 +153,7 @@ var questions = [
       },
       {
         "question": "g) In 2010, Google was sued by Viacom for infringement of copyright by its subsidiary YouTube. Discuss the pros and cons of this case, indicating whether - in your opinion - the judgement was fair.",
-        "answer": "YouTube won the case based on the Digital Millennium Copyright Act (DMCA), which essentially means that ISPs, aggregators and social networking services can't be held responsible for copyright infringement as long as they take reasonable steps to address the issue once it's flagged-up by the copyright holder."
+        "answer": "YouTube won the case based on the Digital Millennium Copyright Act (DMCA), which essentially means that ISPs, aggregators and social networking services can`t be held responsible for copyright infringement as long as they take reasonable steps to address the issue once it\'s flagged-up by the copyright holder. One of the reasons for choosing this is because they had implemented hashing technology to block videos that have already been removed. Youtube bought a licence to Finger printing technology that scans all videos before they are uploaded and this referenced against a library for participating copyright owners. They can monitor/ track uploaded videos and monetize the content by allowing advertising to run along side it."
       },
       {
         "question": "h) Your friend has put together an album of family photos that she wants to put on Facebook. She’s used a U2 song as a background music track for the album slide show. What advice could you give her about this? What is YouTube’s position on copyright infringement?",
