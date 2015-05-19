@@ -44,7 +44,7 @@ var questions = [
   "answer": "I don't know"
 },
 {
-  "question": "What is a rule and what is a fact?"
+  "question": "What is a rule and what is a fact?",
   "color": "red",
   "answer": "I don't know"
 },
@@ -66,7 +66,7 @@ var questions = [
   "answer": "I don't know"
 },
 {
-  "question": "List the advantages and disadvantages of the paradigms."
+  "question": "List the advantages and disadvantages of the paradigms.",
   "color": "dark",
   "answer": "I don't know"
 }];

@@ -2,7 +2,7 @@
 $green_sea: #16a085;
 $turquoise: #1abc9c;
 
-// Green
+// Green - All
 $nephritis: #27ae60;
 $emerald:   #2ecc71;
 
@@ -65,17 +65,14 @@ body {
   }
 
   h2 {
-    margin-bottom: 10px;
-  }
-
-  h3 {
     height: 0;
     opacity: 0;
     font-style: italic;
+    margin-bottom: 10px;
     transition: all .5s ease-in-out;
   }
 
-  h3.active {
+  h2.active {
     opacity: 1;
     height: auto;
   }
@@ -87,9 +84,9 @@ body {
   }
 
   #allquestions {
-    background: $silver;
+    background: $nephritis;
 
-    h1, h2, h3, h4 {
+    h1, h2, h3 {
       text-align: left;
     }
 
@@ -99,12 +96,6 @@ body {
     }
 
     h3 {
-      opacity: 1;
-      height: auto;
-    }
-
-    h4 {
-      margin: 0;
       padding: 20px 0;
     }
   }
@@ -129,12 +120,15 @@ body {
         color: rgba(255,255,255,.8);
       }
     }
+
+    h1 {
+      cursor: pointer;
+    }
   }
 
   #answers {
     .container {
       div {
-        cursor: pointer;
         padding: 30px 0;
         position: relative;
       }
@@ -174,7 +168,7 @@ body {
   }
 
   #allquestionstitle.gray {
-    background: $asbestos;
+    background: $emerald;
   }
 }
 
@@ -211,5 +205,5 @@ body.purple {
 }
 
 body.gray {
-  background: $silver;
+  background: $nephritis;
 }
