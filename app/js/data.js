@@ -69,4 +69,9 @@ var questions = [
   "question": "List the advantages and disadvantages of the paradigms.",
   "color": "dark",
   "answer": "I don't know"
+},
+{
+  "question": "What is the difference between calling by value and calling by name? What are the advantages of each strategy?"
+  "color": "dark",
+  "answer": "Both strategies reduce to the same final value, as long as: the reduced expression consists of pure functions; both evaluations terminate. Call-by-value has the advantage that it evaluates every function argument only once. Call-by-name has the advantage that a function argument is not evaluated if the corresponding parameter is unused in the evaluation of the function body."
 }];
