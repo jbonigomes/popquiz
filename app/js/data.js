@@ -8,7 +8,7 @@ var questions = [
 {
   "question": "Define the term uniform access principle.",
   "color": "orange",
-  "answer": "I don't know"
+  "answer": "The ability to get a value without having to know whether it is stored in a variable or being computed by a function."
 },
 
 // Evaluation
@@ -22,19 +22,19 @@ var questions = [
 {
   "question": "Briefly describe the main differences between weakly typed and strongly typed languages. What are the relative advantages and disadvantages?",
   "color": "purple",
-  "answer": "I don't know"
+  "answer": "In a strongly typed language, applying the wrong operation to a typed data will raise an error (e.g. it is not possible to subtract a string from another string). In a weakly typed language, a language will try to interpret one type as another (e.g., the string '3.4028E+12' will automatically be interpreted as a number, can lead to unintended consequences, e.g., if a string such as hello is interpreted as 0)."
 },
 
 // Functional
 {
   "question": "Explain what it means for a function call to be tail-recursive",
   "color": "blue",
-  "answer": "I don't know"
+  "answer": "The recursive call is the last thing done in the function or, more accurately, every possible path through the function returns either a result computed without recursion, or a result that is the unmodified result (i.e., no further work is done) of a recursive call."
 },
 {
   "question": "Briefly explain the concept of referential transparency. You should provide appropriate examples using functional and imperative programming languages",
   "color": "blue",
-  "answer": "I don't know"
+  "answer": "- Given the same input, functions always return the same output. - Functions do not have side effects, i.e, they do not modify programs state. - A variable can only be assigned (matched) a value once."
 },
 
 // Prolog
