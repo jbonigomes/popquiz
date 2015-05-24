@@ -70,7 +70,7 @@ var questions = [
   "question": "Define the logical programming paradigm and give its advantages and disadvantages.",
   "color": "red",
   "answer": "A declarative approach to problem solving. Various logical assertions are used in conjunction with know facts to query answers. Some of the advantages are: The system solves the problem so the number of programming steps are kept to a minimum. Proving the validity of a program is simple. Suited for rapid prototyping. Disadvantages: Highly inefficient, methods for making large programs are yet to be developed. Only effective for a few small areas of applications."
-}
+},
 
 // General
 {
